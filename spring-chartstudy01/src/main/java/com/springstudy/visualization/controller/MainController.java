@@ -85,6 +85,7 @@ public class MainController {
 		
 		return "popTimeSeries";
 	}
+	
 	@RequestMapping("getGit")
 	public String getGit() {
 		return "getGit";
